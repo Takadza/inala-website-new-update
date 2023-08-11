@@ -113,7 +113,7 @@
           </li>     
         
           <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact Us</a></li>
           <li><a class="nav-link scrollto" href="https://inalaprojects.com/retail-shop/" target="_blank">Retail Shop</a></li>
 
         </ul>
@@ -643,18 +643,7 @@ Inala Projects - All Your Solutions Under One Roof! With our heartwarming touch,
           </div><!-- End Team Member -->
 
         
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/Genna.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-             
-                <h4>Genna</h4>
-                <span>Chief Operations Officer</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
+         
 
             <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
             <div class="team-member">
@@ -750,12 +739,12 @@ Inala Projects - All Your Solutions Under One Roof! With our heartwarming touch,
 
         <div class="section-header" >
          
-          <p>Contact us for further queries or an obligation-free quote</p>
+          <p style="color: black;">Contact us for further queries or an obligation-free quote</p>
         </div>
 
       </div>
 
-      <div class="container">
+      <div class="container">.v 
 
         <div class="row gy-5 gx-lg-5">
 
@@ -795,36 +784,37 @@ Inala Projects - All Your Solutions Under One Roof! With our heartwarming touch,
           </div> 
         
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder=" Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder=" Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validate"></div>
+                  </div><div class="col-md-6 form-group">
+                    <input type="phone" class="form-control" name="contact" id="contact" placeholder="Contact Number" data-rule="minlen:7" data-msg="Please enter valid contact number" />
+                    <div class="validate"></div>
+                  </div>
+
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validate"></div>
                 </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validate"></div>
                 </div>
-                <div class="col-md-6 form-group">
-                  <input type="phone" class="form-control" name="phone" id="contact" placeholder="Phone Number"data-rule="minlen:10" data-msg="Please enter a valid phone number" />
-                  <div class="validate"></div>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
           </div>
 
         </div>
